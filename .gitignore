@@ -1,0 +1,10 @@
+# ignored directories
+/node_modules/
+/dist/
+
+# ignored files
+/package-lock.json
+.DS_Store
+._*
+Thumbs.db
+.directory
