@@ -1,0 +1,23 @@
+/* Set our initial font-size at the parent so we can use rem for spacing */
+html {
+    font-size: 16px;
+  }
+
+  body{
+      line-height: 1.5rem;
+      margin: 0;
+  }
+  
+
+  @import 'colors';
+  @import 'grid-system';
+  @import 'mixins';
+  @import 'navigation';
+  @import 'components';
+
+
+
+
+div{
+    background: $alert-info;
+}
