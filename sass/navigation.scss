@@ -1,0 +1,52 @@
+.nav-container{
+    background: #466a62;
+}
+
+.navbar-dropdown{
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li{
+            display: inline-block;
+            padding: 1rem;
+            position: relative;
+            a{
+                color: #fff;
+                font-weight: 300;
+                text-decoration: none;
+                transition: background .5s;
+            }
+            ul{
+                background: #CCC;
+                display: none;
+                left: 0;
+                position: absolute;
+                top: 56px;
+                min-width: 10rem;
+            }
+            &:hover,
+            &:focus,
+            &:focus-within{
+                background: #FFF;
+
+                a{
+                    color: #18453B;
+                }
+                ul{
+                    display: block;
+                   
+                    li{
+                        background: #FFF;
+                        display: list-item;
+                        padding: .5rem;
+
+                        a{
+                            color: #18453B;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
