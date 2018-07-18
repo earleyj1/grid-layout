@@ -1,6 +1,7 @@
 # ignored directories
 /node_modules/
 /dist/
+/.sass-cache/
 
 # ignored files
 /package-lock.json
@@ -8,4 +9,5 @@
 ._*
 Thumbs.db
 .directory
-.sass-cach
+.sass-cache
+.sass-cache/43d65c6106725fb5704dc94c4cb305774a58cae1/grid-layout.scssc

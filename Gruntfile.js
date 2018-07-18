@@ -11,8 +11,8 @@ module.exports = function(grunt) {
                 sourcemap: 'none'
                 },
                 files: {
-                'dist/grid-framework/grid-layout.min.css': [
-                    'css/grid-layout.scss']
+                'dist/grid-framework/main.min.css': [
+                    'sass/main.scss']
                 }
             }
         },
